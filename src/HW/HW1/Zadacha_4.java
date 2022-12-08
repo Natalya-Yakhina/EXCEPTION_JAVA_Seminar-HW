@@ -7,6 +7,7 @@ import java.util.Arrays;
 // в той же ячейке. Если длины массивов не равны, необходимо как-то оповестить пользователя.
 // Важно: При выполнении метода единственное исключение, которое пользователь может увидеть - RuntimeException,
 // т.е. ваше
+
 public class Zadacha_4 {
     public static void main(String[] args) {
 //        int[] array1 = null;
