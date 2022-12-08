@@ -23,5 +23,4 @@ public class Zadacha_1 {
         array[b] = c;
         return array; // ArrayIndexOutOfBoundsException
     }
-
 }
