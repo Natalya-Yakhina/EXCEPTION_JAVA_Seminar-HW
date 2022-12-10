@@ -9,5 +9,7 @@ package HW.HW2;
 //        System.out.println("Catching exception: " + e);
 //        }
 
+или через if, или добавить еше одну обработку
+
 public class Zadacha_2 {
 }
