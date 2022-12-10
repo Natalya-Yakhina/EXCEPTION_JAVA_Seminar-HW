@@ -10,9 +10,11 @@ import java.util.Scanner;
 public class Zadacha_1 {
     static Scanner iScanner = new Scanner(System.in, "ibm866");
     static String input;
+
     public static void main(String[] args) {
         System.out.println(inpFloat());
     }
+
     public static float inpFloat() {
 
         System.out.println("Введите число типа float c точкой: ");
