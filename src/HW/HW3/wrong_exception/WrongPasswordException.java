@@ -1,4 +1,4 @@
-package HW.HW3.WrongException;
+package HW.HW3.wrong_exception;
 
 public class WrongPasswordException extends Exception {
     public WrongPasswordException(String message) {
