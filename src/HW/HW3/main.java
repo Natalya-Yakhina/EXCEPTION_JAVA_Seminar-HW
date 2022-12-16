@@ -1,7 +1,7 @@
 package HW.HW3;
 
-import HW.HW3.WrongException.WrongLoginException;
-import HW.HW3.WrongException.WrongPasswordException;
+import HW.HW3.wrong_exception.WrongLoginException;
+import HW.HW3.wrong_exception.WrongPasswordException;
 
 import java.util.Scanner;
 
@@ -9,8 +9,13 @@ public class main {
     static Scanner iScanner = new Scanner(System.in);
 
     public static void main(String[] args) throws WrongLoginException, WrongPasswordException {
-        inputData();
-        //        registration();
+        // inputData();
+
+        try {
+            inputData();
+        } catch (WrongLoginException | WrongPasswordException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     public static void inputData() throws WrongLoginException, WrongPasswordException {
