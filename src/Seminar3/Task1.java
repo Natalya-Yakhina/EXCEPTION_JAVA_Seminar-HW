@@ -24,10 +24,10 @@ import java.nio.Buffer;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class Task1 {
-    public static void main(String[] args) {
+//public class Task1 {
+    //public static void main(String[] args) {
 
-    }
+ //   }
 
 //    public void rwLine(Path pathRead, Path pathWrite) {
 //        try (BufferedReader in = Files.newBufferedReader(readPath)) ;
